@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/back.jpg');
+    background-size: cover;
+}
+.calculator{
+    border: 1px solid rgb(59, 54, 54);
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.7) ;
+}
+input{
+    background-color: rgba(0,0,0,0.3);
+    border: rgba(0,0,0,0.3);
+    box-shadow: rgba(0,0,0,0.5);
+    text-align: end;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+
+}
+input::placeholder{
+    color: white;
+}
+button{
+    padding: 20px;
+    margin: 10px;
+    background-color:rgba(0,0,0,0.5) ;
+    color: white;
+    font-size: 20px;
+    width: 70px;
+    border: 1px solid rgba(0,0,0,0.5);Arshin-09
+    Calculator
+    Arshin-09
+    Calculator
+    
+    Code
+    Issues
+    Pull re
+    Code
+    Issues
+    Pull re
+    box-shadow: 3px 2px rgba(0,0,0,0.3);
+}
+button:hover{
+    color: orange;
+}
+.operator{
+    color: orange;
+}
